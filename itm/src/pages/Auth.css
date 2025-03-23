@@ -1,0 +1,144 @@
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.auth-container h2 {
+  color: #ff6f61;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input {
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ff6f61;
+  border-radius: 5px;
+}
+
+.auth-container button {
+  padding: 12px;
+  background: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.auth-container p {
+  color: #333;
+}
+
+.auth-container a {
+  color: #ff6f61;
+  text-decoration: none;
+}
+/* Centering the auth container */
+.auth-container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    background: linear-gradient(135deg, #4A90E2, #9013FE);
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Title */
+  .auth-container h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  /* Form inputs */
+  .auth-container input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    transition: 0.3s;
+  }
+  
+  .auth-container input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  /* Input glow effect */
+  .auth-container input:focus {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  }
+  
+  /* Button styles */
+  .auth-container button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background: #ff4b2b;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  
+  /* Button hover glow effect */
+  .auth-container button:hover {
+    background: #ff3b1b;
+    box-shadow: 0px 0px 15px rgba(255, 75, 43, 0.8);
+    transform: scale(1.05);
+  }
+  
+  /* Link styling */
+  .auth-container p {
+    color: #fff;
+    margin-top: 15px;
+  }
+  
+  .auth-container a {
+    color: #ffeb3b;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  /* Hover effect for links */
+  .auth-container a:hover {
+    text-decoration: underline;
+    color: #ffd700;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

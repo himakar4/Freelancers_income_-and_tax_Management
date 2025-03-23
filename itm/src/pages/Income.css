@@ -1,0 +1,76 @@
+.page-container {
+  padding: 20px;
+}
+
+.income-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.income-form input,
+.income-form select,
+.income-form button {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.income-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.income-form button:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.income-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.income-table th, 
+.income-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.income-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.income-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.income-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.active {
+  color: green;
+  font-weight: bold;
+}
+
+.inactive {
+  color: red;
+  font-weight: bold;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}

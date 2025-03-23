@@ -1,0 +1,103 @@
+.page-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Form Styling */
+.client-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.client-form input,
+.client-form select,
+.client-form button {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.client-form input,
+.client-form select {
+  flex: 1;
+  min-width: 180px;
+}
+
+.client-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.client-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Table Styling */
+.table-container {
+  overflow-x: auto;
+}
+
+.client-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.client-table th, 
+.client-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.client-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.client-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.client-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.active {
+  color: green;
+  font-weight: bold;
+}
+
+.inactive {
+  color: red;
+  font-weight: bold;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+  color: #777;
+}

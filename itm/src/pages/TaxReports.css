@@ -1,0 +1,80 @@
+.page-container {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.tax-report-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tax-report-form input,
+.tax-report-form select,
+.tax-report-form button {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tax-report-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.tax-report-form button:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.tax-report-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.tax-report-table th,
+.tax-report-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tax-report-table th {
+  background-color: #f4f4f4;
+}
+
+.tax-report-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tax-report-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.finalized {
+  color: green;
+  font-weight: bold;
+}
+
+.draft {
+  color: orange;
+  font-weight: bold;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}

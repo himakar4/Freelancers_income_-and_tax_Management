@@ -1,0 +1,84 @@
+.page-container {
+  padding: 20px;
+}
+
+.invoice-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.invoice-form input,
+.invoice-form select,
+.invoice-form button {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.invoice-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.invoice-form button:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.invoice-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.invoice-table th,
+.invoice-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.invoice-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.invoice-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.invoice-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.status-draft {
+  color: gray;
+  font-weight: bold;
+}
+
+.status-sent {
+  color: blue;
+  font-weight: bold;
+}
+
+.status-paid {
+  color: green;
+  font-weight: bold;
+}
+
+.status-overdue {
+  color: red;
+  font-weight: bold;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}

@@ -1,0 +1,78 @@
+.page-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.notifications-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: auto;
+}
+
+.notifications-table th, .notifications-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.notifications-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+  text-align: center;
+}
+
+.notifications-table td {
+  text-align: center;
+}
+
+.notifications-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.notifications-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.unread {
+  font-weight: bold;
+  background-color: #fff3cd;
+}
+
+.read {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.no-data {
+  text-align: center;
+  padding: 20px;
+  font-style: italic;
+}
+
+@media (max-width: 768px) {
+  .notifications-table th, .notifications-table td {
+    font-size: 12px;
+    padding: 8px;
+  }
+  button {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+}
